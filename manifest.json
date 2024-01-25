@@ -1,0 +1,20 @@
+
+{
+  "manifest_version": 3,
+  "name": "Delete Availability",
+  "version": "1.0",
+  "description": "Deletes Long List of Availability Task",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.inv.tech/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
