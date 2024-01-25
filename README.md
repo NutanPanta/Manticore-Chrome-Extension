@@ -6,7 +6,7 @@ Fix for manticore issue with long list of `Upcoming availability blocks over the
 
 1. Download this repository:
    ```bash
-   https://github.com/NutanPanta/Manticore-Chrome-Extension
+   git clone https://github.com/NutanPanta/Manticore-Chrome-Extension
    ```
 2. Open Google Chrome Extensions: `chrome://extensions/`:
 
